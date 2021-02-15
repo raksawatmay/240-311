@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Caculator JQuery&JavaScript</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <div class="header">
+    <div class="container">
+       <h1 style="color: white"><marquee direction="right">Introduce Myself</marquee></h1>
+    </div>
+  </div>
+    <a href="https://www.facebook.com/profile.php?id=100011840856138" target="_blank">
+            <center>
+              <h3 style="color: blue">My Picture</h3>
+  <section>
+              <img src="mayza.jpg" alt="It'me" width='282px' hight='330px'>
+            </center>
+        </a>
+  </section>
+  <div class="nav">
+      <div class="container">
+        <center>
+          <ol><a href="#allcen">JQuery&JavaScript</a></ol>
+        </center>
+      </div>
+  </div>
+ <script>
+        $( ()  => {
+            $("#b1").click( () => {
+                $("#id1").toggle('slow', function() {
+                    var test = $(this).css('display');
+                })
+            });
+        });
+        $( ()  => {
+            $("#b2").click( () => {
+                $("#id2").toggle('slow', function() {
+                    var test = $(this).css('display');
+                })
+            });
+        });
+        $( ()  => {
+            $("#b3").click( () => {
+                $("#id3").toggle('slow', function() {
+                    var test = $(this).css('display');
+                })
+            });
+        });
+  </script>
+</head>
+<body background="green">
+  <div id ="dtable">
+    <article>
+        <center>
+        <h1>Caculator</h1>
+          </center>
+    </article>
+  </div>
+  <div id = "allcen">  
+        <center>
+        <h2>JQuery & JavaScript</h2>    
+        <article class="art1">
+                    <div id="demo1">Hello..</div>
+                    <button class="bt1" onclick="changeClick()">Change</button>
+                    <button class="bt2" onclick="returnWord()">Unchange</button><br>
+                </article>
+                <article class="art2">
+                    <input type="text" id="num1" onfocus="this.value=''"> <span id="add">operand</span>
+                    <input type="text" id="num2" onfocus="this.value=''"> <br>
+                    <button class="bt3" onclick="opeRand('Sum')">Sum</button>
+                    <button class="bt4" onclick="opeRand('Min')">Min</button>
+                    <button class="bt5" onclick="opeRand('Mul')">Mul</button>
+                    <button class="bt6" onclick="opeRand('Div')">Div</button>
+                </article>
+        </center>
+  </section>
+  <script>
+            opeRand = (ops) => {
+                var a = document.getElementById("num1").value;
+                var b = document.getElementById("num2").value;
+                var sum = 0;
+                if (ops == "Sum")
+                    {
+                        sum = Number(a)+Number(b);
+                        document.getElementById("add").innerHTML="+";
+                        alert('Answer: ' +sum);
+                    }
+                else if (ops == "Min")
+                    {
+                        sum = Number(a)-Number(b);
+                        document.getElementById("add").innerHTML="-";
+                        alert('Answer: ' +sum); 
+                    }
+                else if (ops == "Mul")
+                    {
+                        sum = Number(a)*Number(b);
+                        document.getElementById("add").innerHTML="x";
+                        alert('Answer: ' +sum);
+                    }
+                else if (ops == "Div")
+                    {
+                        sum = Number(a)/Number(b);
+                        document.getElementById("add").innerHTML="/";
+                        alert('Answer: ' +sum);
+                    }
+                }
+            changeClick = () => {
+                    document.getElementById("demo1").innerHTML="World";
+                }
+            returnWord = () => {
+                    document.getElementById("demo1").innerHTML="Hello..";
+                }
+  </script>
+  
+  </div>
+</body>
+</html>

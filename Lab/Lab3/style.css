@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    font-weight: 100;
+    background-image: url(BG.jpg);
+}
+h1 {
+  margin: 10px auto;
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 20px;
+  color:green;
+  font-family: sans-serif;
+}
+form {
+  margin: 0px;
+  padding-top: 50px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.bg{
+  border: 2px solid green;
+  width: 400px;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: pink;
+}
+#text1,#text2{
+  border: 2px solid red;
+  border-radius: 5px;
+}
+button{
+  border: 2px solid red;
+  border-radius: 5px;
+}

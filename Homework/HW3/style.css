@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.header {
+  text-align: center; 
+  font-size: 25px;
+}
+h1{
+	padding: 0 25px;
+	background-color:#00FA9A;
+}
+h2{
+	padding: 0 25px;
+	background:#66CDAA;
+}
+h3,p{
+	padding: 0 25px;
+}
+table, th, td {
+  border: 4px dotted green;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+.container {
+  margin: 0 auto;
+  max-width: 70%; 
+}
+.nav{
+	height: 64px;
+	width: 120%;
+  margin: 0 auto;
+  max-width: 15%;
+}
+
+section {
+  border: 4px dashed green;
+  border-collapse: collapse;
+  max-width: 21.5%
+}
