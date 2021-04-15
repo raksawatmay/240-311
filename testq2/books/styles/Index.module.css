@@ -1,0 +1,33 @@
+.displayContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    }
+    .boxBookDisplay {
+    text-align: center;
+    width: 250px;
+    height: auto;
+    background: #f6dfeb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-right: 5px;
+    }
+    .list {
+    list-style-type: none;
+    }
+    .buyButton {
+    background-color: #7cff99;
+    border: none;
+    font-size: 13px;
+    padding: 8px 8px;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 60px;
+    }
+    .buyButton:hover {
+    cursor: pointer;
+    color: white;}    

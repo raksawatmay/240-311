@@ -1,0 +1,87 @@
+.list {
+    list-style-type: none;
+    }
+    .topicText {
+    font-weight: bold;
+    }
+    .boxBookDisplay {
+    text-align: center;
+    width: 250px;
+    height: auto;
+    background: #f6dfeb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-right: 5px;
+    }
+    .deleteButton {
+    width: 60px;
+    background-color: #ff6262;
+    border: none;
+    font-size: 13px;
+    padding: 8px 8px;
+    margin-left: 8px;
+    color: black;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 5px;
+    }
+    .deleteButton:hover {
+    cursor: pointer;
+    color: white;
+    }
+    .updateButton {
+    width: 60px;
+    background-color: #ffcc48;
+    border: none;
+    font-size: 13px;
+    padding: 8px 8px;
+    margin-left: 3px;color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 5px;
+    }
+    .updateButton:hover {
+    cursor: pointer;
+    color: white;
+    }
+    .addButton {
+    display: block;
+    width: 50%;
+    background-color: #7cff99;
+    border: none;
+    font-size: 13px;
+    padding: 8px 8px;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 150px;
+    }
+    .addButton:hover {
+    cursor: pointer;
+    color: white;
+    }
+    .displayContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    }
+    .inputDisplay {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    background: #f6dfeb;
+    border-radius: 10px;
+    margin-top: 10px;padding: 20px;
+    margin-right: 5px;
+    line-height: 6px;
+    }
+    .label{
+    padding: 5px;
+    text-align: left;
+    }

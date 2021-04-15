@@ -1,0 +1,133 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.content {
+    min-width: 25vw;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 100px auto;
+    margin-bottom: 16px;
+}
+
+.gridContainer>div {
+    background-color:pink;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.gridContainer>div>input {
+    width: 100%;
+    padding: 2px 2px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+.btucopy {
+    background-color: brown;
+    color: aliceblue;
+}
+.btulogin {
+    background-color:blue;
+    color: aliceblue;
+}
+.bturegister {
+    background-color:green;
+    color: aliceblue;
+}
+.text{
+    color: blue;
+}
+.btn{
+    background-color: green;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .btn {
+      background-color: green;
+      color: whitesmoke;
+      font-size: 1rem;
+      margin-top: 10px;
+      border: 2px solid green;
+  }
+  .btn:hover{
+      background-color: rgb(15, 177, 15);
+      color: #fff;
+      font-size: 1rem;
+      margin-top: 10px;
+      border: 2px solid rgb(15, 177, 15);
+  }
+  .btn1{
+    background-color: brown;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .btn1 {
+      background-color: brown;
+      color: whitesmoke;
+      font-size: 1rem;
+      margin-top: 10px;
+      border: 2px solid brown;
+  }
+  .btn1:hover{
+      background-color: red;
+      color: #fff;
+      font-size: 1rem;
+      margin-top: 10px;
+      border: 2px solid red;
+  }
+  .btn2{
+    background-color: rgb(34, 183, 233);
+    border-radius: 10%;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .btn2 {
+      background-color: rgb(34, 183, 233);
+      color: whitesmoke;
+      font-size: 1rem;
+      margin-top: 10px;
+      border: 2px solid rgb(34, 183, 233);
+  }
+  .btn2:hover{
+      background-color: rgb(10, 152, 192);
+      color: #fff;
+      font-size: 1rem;
+      margin-top: 10px;
+      border: 2px solid rgb(10, 152, 192);
+  }
